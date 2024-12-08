@@ -8,8 +8,19 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link for swipe css  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- css files links  -->
+    <link rel="stylesheet" href="folder_css/style.css">
+    <link rel="stylesheet" href="folder_css/aboutUs-folder/aboutUs.css">
+    <link rel="stylesheet" href="folder_css/hero-section-folder/hero.css">
+    <link rel="stylesheet" href="folder_css/menu-section-folder/menu.css">
+    <link rel="stylesheet" href="folder_css/footer-section/footer.css">
+    <link rel="stylesheet" href="folder_css/contactUs/contact.css">
+    <link rel="stylesheet" href="folder_css/gallery-fold/gallery.css">
+    <link rel="stylesheet" href="folder_css/testimonial/testimonial.css">
+    <link rel="stylesheet" href="folder_css/nav-bar/navbar.css">
+
 </head>
 <body>
     <!-- Header&Navbar segment  -->
@@ -29,7 +40,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="#menu" class="nav-link">Menu</a>
+                <a href="menu.html" class="nav-link">Menu</a>
             </li>
 
             <li class="nav-item">
@@ -57,10 +68,10 @@
                 <h2 class="title">Best Coffee</h2>
                 <h3 class="subtitle"> Make your day great with our special coffee!</h3>
                 <p class="description"> Welcome to our coffee paradise, where every beans tells a story and every cup sparks joy </p>
-
+                
                 <div class="buttons">
-                    <a href="#menu" class="button order-now">Menu</a>
-                    <a href="#contact" class="button contact-us">Contact Us</a>
+                    <a target="_blank" href="menu.html" class="button order-now">Menu</a>
+                    <a target="_blank" href="contact.html" class="button contact-us">Contact Us</a>
                 </div>
             </div>
 
@@ -77,7 +88,7 @@
     <section class="about-section" id="about us">
         <div class="section-content">
             <div class="about-image-wrapper">
-                <img src="images/about-us-picture.jpg" class="about-image">
+                <img src="folder_css/images/about-us-picture.jpg" class="about-image">
             </div>
             <div class="about-details">
                 <h2 class="section-title">About Us</h2>
@@ -95,40 +106,68 @@
     <section class="menu-section" id="menu">
         <h2 class="section-title">Our Menu</h2>
         <div class="section-content">
-            <ul class="menu-list">
-                <li class="menu-item">
-                    <img src="images/gallery-coffee.webp" class="menu-image">
-                    <h3 class="name">Hot Beverages</h3>
-                    <p class="text">Wide range of hot steaming coffee to make you fresh and light.</p>
-                </li>
-                <li class="menu-item">
-                    <img src="images/menu-cold-coffee.jpeg" class="menu-image">
-                    <h3 class="name">Breakfast</h3>
-                    <p class="text">Wide range of hot steaming coffee to make you fresh and light.</p>
-                </li>
-                <li class="menu-item">
-                    <img src="images/menu-Refreshment.webp" class="menu-image">
-                    <h3 class="name">Refreshment</h3>
-                    <p class="text">Wide range of hot steaming coffee to make you fresh and light.</p>
-                </li>
-                <li class="menu-item">
-                    <img src="images/menu-burger1.jpg" class="menu-image">
-                    <h3 class="name">Refreshment</h3>
-                    <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
-                </li>
-                <li class="menu-item">
-                    <img src="images/menu-dessert.jpg" class="menu-image">
-                    <h3 class="name">Cold Beverages</h3>
-                    <p class="text">Creamy and froty cold coffee to make you cool.</p>
-                </li>
-                <li class="menu-item">
-                    <img src="images/menu-combo-breakfast.png" class="menu-image">
-                    <h3 class="name">Hot Beverages</h3>
-                    <p class="text">Wide range of hot steaming coffee to make you fresh and light.</p>
-                </li>
-            </ul>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="folder_css/images/gallery-coffee.webp"
+                class="menu-image"
+              />
+              <h3 class="name">Hot Beverages</h3>
+              <p class="text">
+                Wide range of hot steaming coffee to make you fresh and light.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="folder_css/images/menu-cold-coffee.jpeg"
+                class="menu-image"
+              />
+              <h3 class="name">Breakfast</h3>
+              <p class="text">
+                Wide range of hot steaming coffee to make you fresh and light.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="folder_css/images/menu-Refreshment.webp"
+                class="menu-image"
+              />
+              <h3 class="name">Refreshment</h3>
+              <p class="text">
+                Wide range of hot steaming coffee to make you fresh and light.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="folder_css/images/menu-burger1.jpg"
+                class="menu-image"
+              />
+              <h3 class="name">Refreshment</h3>
+              <p class="text">
+                Fruit and icy refreshing drink to make feel refresh.
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="folder_css/images/menu-dessert.jpg"
+                class="menu-image"
+              />
+              <h3 class="name">Cold Beverages</h3>
+              <p class="text">Creamy and froty cold coffee to make you cool.</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="folder_css/images/menu-combo-breakfast.png"
+                class="menu-image"
+              />
+              <h3 class="name">Hot Beverages</h3>
+              <p class="text">
+                Wide range of hot steaming coffee to make you fresh and light.
+              </p>
+            </li>
+          </ul>
         </div>
-    </section>
+      </section>
 
     <!-- Testimonial  -->
     <section class="testimonials-section" id="testimonials">
@@ -139,35 +178,35 @@
                         <ul class="testimonials-lists swiper-wrapper">
 
                             <li class="testimonial swiper-slide">
-                                <img src="images/testimonial-1.jpg" class="user-image">
+                                <img src="folder_css/images/testimonial-1.jpg" class="user-image">
                                 <h3 class="name">John Smith</h3>
                                 <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will surely order again! "</i>
                             </li>
 
                             <li class="testimonial swiper-slide">
-                                <img src="images/testimonial-2.jpg" class="user-image">
+                                <img src="folder_css/images/testimonial-2.jpg" class="user-image">
                                 <h3 class="name">Frimpong</h3>
                                 <i class="feedback">"Great espresso blend! Smooth and bold flavour. Fast delivery too!"</i>
                             </li>
 
                             <li class="testimonial swiper-slide">
-                                <img src="images/Testimonial-3.png" class="user-image">
+                                <img src="folder_css/images/Testimonial-3.png" class="user-image">
                                 <h3 class="name">Williams Ella</h3>
                                 <i class="feedback">"Fantastic moncha flavour. Fresh and aromatic. worth it!"</i>
                             </li>
 
                             <li class="testimonial swiper-slide">
-                                <img src="images/testimonial-4.jpg" class="user-image">
+                                <img src="folder_css/images/testimonial-4.jpg" class="user-image">
                                 <h3 class="name">Sunmisola</h3>
                                 <i class="feedback">"Excellent quality. highly recommended "</i>
                             </li>
                             <li class="testimonial swiper-slide">
-                                <img src="images/testimonial-5.webp" class="user-image">
+                                <img src="folder_css/images/testimonial-5.webp" class="user-image">
                                 <h3 class="name">clara Jones</h3>
                                 <i class="feedback">"Best i have tried so far"</i>
                             </li>
                             <li class="testimonial swiper-slide">
-                                <img src="images/testimonial-6.jpg" class="user-image">
+                                <img src="folder_css/images/testimonial-6.jpg" class="user-image">
                                 <h3 class="name">Martha</h3>
                                 <i class="feedback">"Top norcth service, definitely coming back for more  "</i>
                             </li>
@@ -190,27 +229,27 @@
             <div class="section-content">
                 <ul class="gallery-list">
                     <li class="gallery-item">
-                        <img src="images/gallery-ckae -coffee.jpeg" class="gallery-image">
+                        <img src="folder_css/images/gallery-ckae -coffee.jpeg" class="gallery-image">
                     </li>
 
                     <li class="gallery-item">
-                        <img src="images/gallery-sandwich.jpeg" class="gallery-image">
+                        <img src="folder_css/images/gallery-sandwich.jpeg" class="gallery-image">
                     </li>
 
                     <li class="gallery-item">
-                        <img src="images/gallery-cossant.jpg" class="gallery-image">
+                        <img src="folder_css/images/gallery-cossant.jpg" class="gallery-image">
                     </li>
 
                     <li class="gallery-item">
-                        <img src="images/gallery-cussaint.jpg" class="gallery-image">
+                        <img src="folder_css/images/gallery-cussaint.jpg" class="gallery-image">
                     </li>
 
                     <li class="gallery-item">
-                        <img src="images/gallery-coffee.webp" class="gallery-image">
+                        <img src="folder_css/images/gallery-coffee.webp" class="gallery-image">
                     </li>
 
                     <li class="gallery-item">
-                        <img src="images/gallery-smoothies.jpg" class="gallery-image">
+                        <img src="folder_css/images/gallery-smoothies.jpg" class="gallery-image">
                     </li>
 
                 </ul>
@@ -292,6 +331,6 @@
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="prog.js"></script>
+    <script src="folder_js/prog.js"></script>
 </body>
 </html>
